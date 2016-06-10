@@ -1,0 +1,173 @@
+body {
+  margin: 0; }
+
+header {
+  height: 80vh;
+  background-image: url(img/banner1.jpg);
+  position: relative;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  overflow: hidden;
+  box-shadow: -15px 15px 5px rgba(0, 0, 0, 0.3); }
+
+nav {
+  height: 80px;
+  line-height: 120px;
+  text-align: center;
+  position: absolute;
+  padding: 0 0 0 20%;
+  top: 0;
+  left: 0;
+  width: 100%; }
+  nav .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: left; }
+    nav .menu li {
+      display: inline-block;
+      padding: 0 20px;
+      margin: 5px 0; }
+      nav .menu li a {
+        padding: 5px;
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+        border: 1px solid;
+        border-color: rgba(192, 57, 43, 0);
+        border-radius: 3px; }
+      nav .menu li:hover a {
+        color: red;
+        border: 1px solid red;
+        border-radius: 3px; }
+
+.titleBlock {
+  width: 100%;
+  text-align: center;
+  color: #e84545;
+  margin-top: 30vh; }
+  .titleBlock h1 {
+    font-weight: bold;
+    font-size: 50px; }
+  .titleBlock p {
+    font-size: 30px; }
+
+.first {
+  background-color: rgba(128, 191, 255, 0.3);
+  padding: 60px 0 60px 0; }
+  .first .item {
+    text-align: center; }
+    .first .item i {
+      font-size: 60px;
+      color: #e84545; }
+    .first .item h2 {
+      font-weight: 700;
+      text-transform: uppercase; }
+    .first .item p {
+      color: rgba(0, 0, 0, 0.6); }
+    .first .item a {
+      text-transform: uppercase;
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.6); }
+    .first .item:hover a {
+      color: #e84545; }
+
+.center {
+  left: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+  .center .img_fon {
+    background-image: url("img/banner2.jpg");
+    background-position: -150px 0px;
+    height: 50vh;
+    width: 100%; }
+    .center .img_fon .item2 {
+      margin-top: 20%;
+      background-color: rgba(128, 191, 255, 0.8);
+      text-align: center;
+      padding: 20px 0 0 0;
+      border: 1px solid black;
+      border-radius: 6px;
+      box-shadow: -15px 15px 5px rgba(0, 0, 0, 0.3); }
+      .center .img_fon .item2 h3 {
+        text-transform: uppercase;
+        color: #ffffff; }
+      .center .img_fon .item2 p {
+        padding: 0 20px 20px 20px;
+        color: #ffffff; }
+    .center .img_fon .Get {
+      left: 0;
+      background-color: #e84545;
+      width: 100%;
+      height: 40px; }
+      .center .img_fon .Get a {
+        text-decoration: none;
+        color: #ffffff;
+        text-transform: uppercase;
+        display: inline-block;
+        margin-top: 10px; }
+
+.imiges .col-md-4 {
+  padding: 0; }
+  .imiges .col-md-4 .item3 {
+    position: relative; }
+    .imiges .col-md-4 .item3 .overlay {
+      opacity: 0; }
+      .imiges .col-md-4 .item3 .overlay .descrBlock {
+        position: absolute;
+        text-align: center;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(128, 191, 255, 0.5); }
+      .imiges .col-md-4 .item3 .overlay h3 {
+        text-transform: uppercase;
+        color: #ffffff;
+        text-align: center;
+        padding: 30px 0 20px 0; }
+      .imiges .col-md-4 .item3 .overlay p {
+        text-align: justify;
+        color: #ffffff;
+        padding: 0 20px; }
+      .imiges .col-md-4 .item3 .overlay .foot {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: #e84545;
+        width: 100%;
+        height: 40px; }
+        .imiges .col-md-4 .item3 .overlay .foot a {
+          text-decoration: none;
+          color: #ffffff;
+          text-transform: uppercase;
+          display: inline-block;
+          margin-top: 10px; }
+  .imiges .col-md-4:hover .overlay {
+    opacity: 1;
+    -webkit-transition: all 2s; }
+
+.end {
+  height: 50px;
+  width: 100%;
+  background-color: #e84545;
+  padding: 0;
+  overflow: hidden;
+  border-top: 1px solid black; }
+  .end h5 {
+    color: black;
+    text-align: center;
+    padding: 10px 0 30px 0;
+    text-decoration: bold; }
+  .end a {
+    display: inline-block;
+    text-align: center;
+    padding: 0 30px;
+    margin-top: 12px;
+    font-size: 20px; }
+
+/*# sourceMappingURL=main.css.map */
